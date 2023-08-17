@@ -21,11 +21,7 @@ const ResearchPaperSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  claim: {
-    type: String,
-    required: true,
-  },
-  evidence: {
+  description: {
     type: String,
     required: true,
   },
